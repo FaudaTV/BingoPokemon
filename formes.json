@@ -1,0 +1,1624 @@
+[
+    {
+        "id": "0019-f1",
+        "name": "Rattata Forme d'Alola",
+        "types": [
+            "Ténèbres",
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0019-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0020-f1",
+        "name": "Rattatac Forme d'Alola",
+        "types": [
+            "Ténèbres",
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0020-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0026-f1",
+        "name": "Raichu Forme d'Alola",
+        "types": [
+            "Électrik",
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0026-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0027-f1",
+        "name": "Sabelette Forme d'Alola",
+        "types": [
+            "Glace",
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0027-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0028-f1",
+        "name": "Sablaireau Forme d'Alola",
+        "types": [
+            "Glace",
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0028-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0037-f1",
+        "name": "Goupix Forme d'Alola",
+        "types": [
+            "Glace"
+        ],
+        "img": "/sprites/shiny/0037-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0038-f1",
+        "name": "Feunard Forme d'Alola",
+        "types": [
+            "Glace",
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0038-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0050-f1",
+        "name": "Taupiqueur Forme d'Alola",
+        "types": [
+            "Sol",
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0050-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0051-f1",
+        "name": "Triopiqueur Forme d'Alola",
+        "types": [
+            "Sol",
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0051-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0052-f1",
+        "name": "Miaouss Forme d'Alola",
+        "types": [
+            "Ténèbres"
+        ],
+        "img": "/sprites/shiny/0052-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0052-f2",
+        "name": "Miaouss Forme de Galar",
+        "types": [
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0052-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0053-f1",
+        "name": "Persian Forme d'Alola",
+        "types": [
+            "Ténèbres"
+        ],
+        "img": "/sprites/shiny/0053-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0058-f1",
+        "name": "Caninos Forme de Hisui",
+        "types": [
+            "Feu",
+            "Roche"
+        ],
+        "img": "/sprites/shiny/0058-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0059-f1",
+        "name": "Arcanin Forme de Hisui",
+        "types": [
+            "Feu",
+            "Roche"
+        ],
+        "img": "/sprites/shiny/0059-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0074-f1",
+        "name": "Racaillou Forme d'Alola",
+        "types": [
+            "Roche",
+            "Électrik"
+        ],
+        "img": "/sprites/shiny/0074-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0075-f1",
+        "name": "Gravalanche Forme d'Alola",
+        "types": [
+            "Roche",
+            "Électrik"
+        ],
+        "img": "/sprites/shiny/0075-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0076-f1",
+        "name": "Grolem Forme d'Alola",
+        "types": [
+            "Roche",
+            "Électrik"
+        ],
+        "img": "/sprites/shiny/0076-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0077-f1",
+        "name": "Ponyta Forme de Galar",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0077-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0078-f1",
+        "name": "Galopa Forme de Galar",
+        "types": [
+            "Psy",
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0078-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0079-f1",
+        "name": "Ramoloss Forme de Galar",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0079-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0080-f1",
+        "name": "Flagadoss Forme de Galar",
+        "types": [
+            "Poison",
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0080-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0083-f1",
+        "name": "Canarticho Forme de Galar",
+        "types": [
+            "Combat"
+        ],
+        "img": "/sprites/shiny/0083-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0088-f1",
+        "name": "Tadmorv Forme d'Alola",
+        "types": [
+            "Poison",
+            "Ténèbres"
+        ],
+        "img": "/sprites/shiny/0088-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0089-f1",
+        "name": "Grotadmorv Forme d'Alola",
+        "types": [
+            "Poison",
+            "Ténèbres"
+        ],
+        "img": "/sprites/shiny/0089-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0100-f1",
+        "name": "Voltorbe Forme de Hisui",
+        "types": [
+            "Électrik",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0100-f1.png"
+    },
+    {
+        "id": "0101-f1",
+        "name": "Électrode Forme de Hisui",
+        "types": [
+            "Électrik",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0101-f1.png"
+    },
+    {
+        "id": "0103-f1",
+        "name": "Noadkoko Forme d'Alola",
+        "types": [
+            "Plante",
+            "Dragon"
+        ],
+        "img": "/sprites/shiny/0103-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0105-f1",
+        "name": "Ossatueur Forme d'Alola",
+        "types": [
+            "Feu",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0105-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0110-f1",
+        "name": "Smogogo Forme de Galar",
+        "types": [
+            "Poison",
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0110-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0122-f1",
+        "name": "M. Mime Forme de Galar",
+        "types": [
+            "Glace",
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0122-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0128-f1",
+        "name": "Tauros Forme de Paldea (Race Combative)",
+        "types": [
+            "Combat"
+        ],
+        "img": "/sprites/shiny/0128-f1.png"
+    },
+    {
+        "id": "0128-f2",
+        "name": "Tauros Forme de Paldea (Race Flamboyante)",
+        "types": [
+            "Combat",
+            "Feu"
+        ],
+        "img": "/sprites/shiny/0128-f2.png"
+    },
+    {
+        "id": "0128-f3",
+        "name": "Tauros Forme de Paldea (Race Aquatique)",
+        "types": [
+            "Combat",
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0128-f3.png"
+    },
+    {
+        "id": "0144-f1",
+        "name": "Artikodin Forme de Galar",
+        "types": [
+            "Psy",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0144-f1.png"
+    },
+    {
+        "id": "0145-f1",
+        "name": "Électhor Forme de Galar",
+        "types": [
+            "Combat",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0145-f1.png"
+    },
+    {
+        "id": "0146-f1",
+        "name": "Sulfura Forme de Galar",
+        "types": [
+            "Ténèbres",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0146-f1.png"
+    },
+    {
+        "id": "0157-f1",
+        "name": "Typhlosion Forme de Hisui",
+        "types": [
+            "Feu",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0157-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0194-f1",
+        "name": "Axoloto Forme de Paldea",
+        "types": [
+            "Poison",
+            "Sol"
+        ],
+        "img": "/sprites/shiny/0194-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0199-f1",
+        "name": "Roigada Forme de Galar",
+        "types": [
+            "Poison",
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0199-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0201-f01",
+        "name": "Zarbi Forme B",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f01.png"
+    },
+    {
+        "id": "0201-f02",
+        "name": "Zarbi Forme C",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f02.png"
+    },
+    {
+        "id": "0201-f03",
+        "name": "Zarbi Forme D",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f03.png"
+    },
+    {
+        "id": "0201-f04",
+        "name": "Zarbi Forme E",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f04.png"
+    },
+    {
+        "id": "0201-f05",
+        "name": "Zarbi Forme F",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f05.png"
+    },
+    {
+        "id": "0201-f06",
+        "name": "Zarbi Forme G",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f06.png"
+    },
+    {
+        "id": "0201-f07",
+        "name": "Zarbi Forme H",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f07.png"
+    },
+    {
+        "id": "0201-f08",
+        "name": "Zarbi Forme I",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f08.png"
+    },
+    {
+        "id": "0201-f09",
+        "name": "Zarbi Forme J",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f09.png"
+    },
+    {
+        "id": "0201-f10",
+        "name": "Zarbi Forme K",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f10.png"
+    },
+    {
+        "id": "0201-f11",
+        "name": "Zarbi Forme L",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f11.png"
+    },
+    {
+        "id": "0201-f12",
+        "name": "Zarbi Forme M",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f12.png"
+    },
+    {
+        "id": "0201-f13",
+        "name": "Zarbi Forme N",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f13.png"
+    },
+    {
+        "id": "0201-f14",
+        "name": "Zarbi Forme O",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f14.png"
+    },
+    {
+        "id": "0201-f15",
+        "name": "Zarbi Forme P",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f15.png"
+    },
+    {
+        "id": "0201-f16",
+        "name": "Zarbi Forme Q",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f16.png"
+    },
+    {
+        "id": "0201-f17",
+        "name": "Zarbi Forme R",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f17.png"
+    },
+    {
+        "id": "0201-f18",
+        "name": "Zarbi Forme S",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f18.png"
+    },
+    {
+        "id": "0201-f19",
+        "name": "Zarbi Forme T",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f19.png"
+    },
+    {
+        "id": "0201-f20",
+        "name": "Zarbi Forme U",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f20.png"
+    },
+    {
+        "id": "0201-f21",
+        "name": "Zarbi Forme V",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f21.png"
+    },
+    {
+        "id": "0201-f22",
+        "name": "Zarbi Forme W",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f22.png"
+    },
+    {
+        "id": "0201-f23",
+        "name": "Zarbi Forme X",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f23.png"
+    },
+    {
+        "id": "0201-f24",
+        "name": "Zarbi Forme Y",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f24.png"
+    },
+    {
+        "id": "0201-f25",
+        "name": "Zarbi Forme Z",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f25.png"
+    },
+    {
+        "id": "0201-f26",
+        "name": "Zarbi Forme !",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f26.png"
+    },
+    {
+        "id": "0201-f27",
+        "name": "Zarbi Forme ?",
+        "types": [
+            "Psy"
+        ],
+        "img": "/sprites/shiny/0201-f27.png"
+    },
+    {
+        "id": "0211-f1",
+        "name": "Qwilfish Forme de Hisui",
+        "types": [
+            "Ténèbres",
+            "Poison"
+        ],
+        "img": "/sprites/shiny/0211-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0215-f1",
+        "name": "Farfuret Forme de Hisui",
+        "types": [
+            "Combat",
+            "Poison"
+        ],
+        "img": "/sprites/shiny/0215-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0222-f1",
+        "name": "Corayon Forme de Galar",
+        "types": [
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0222-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0263-f1",
+        "name": "Zigzaton Forme de Galar",
+        "types": [
+            "Ténèbres",
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0263-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0264-f1",
+        "name": "Linéon Forme de Galar",
+        "types": [
+            "Ténèbres",
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0264-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0412-f1",
+        "name": "Cheniti Cape Sable",
+        "types": [
+            "Insecte"
+        ],
+        "img": "/sprites/shiny/0412-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0412-f2",
+        "name": "Cheniti Cape Déchet",
+        "types": [
+            "Insecte"
+        ],
+        "img": "/sprites/shiny/0412-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0413-f1",
+        "name": "Cheniselle Cape Sable",
+        "types": [
+            "Insecte",
+            "Sol"
+        ],
+        "img": "/sprites/shiny/0413-f1.png"
+    },
+    {
+        "id": "0413-f2",
+        "name": "Cheniselle Cape Déchet",
+        "types": [
+            "Insecte",
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0413-f2.png"
+    },
+    {
+        "id": "0422-f1",
+        "name": "Sancoki Mer Orient",
+        "types": [
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0422-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0423-f1",
+        "name": "Tritosor Mer Orient",
+        "types": [
+            "Eau",
+            "Sol"
+        ],
+        "img": "/sprites/shiny/0423-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0479-f1",
+        "name": "Motisma Chaleur",
+        "types": [
+            "Électrik",
+            "Feu"
+        ],
+        "img": "/sprites/shiny/0479-f1.png"
+    },
+    {
+        "id": "0479-f2",
+        "name": "Motisma Lavage",
+        "types": [
+            "Électrik",
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0479-f2.png"
+    },
+    {
+        "id": "0479-f3",
+        "name": "Motisma Froid",
+        "types": [
+            "Électrik",
+            "Glace"
+        ],
+        "img": "/sprites/shiny/0479-f3.png"
+    },
+    {
+        "id": "0479-f4",
+        "name": "Motisma Hélice",
+        "types": [
+            "Électrik",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0479-f4.png"
+    },
+    {
+        "id": "0479-f5",
+        "name": "Motisma Tonte",
+        "types": [
+            "Électrik",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0479-f5.png"
+    },
+    {
+        "id": "0503-f1",
+        "name": "Clamiral Forme de Hisui",
+        "types": [
+            "Eau",
+            "Ténèbres"
+        ],
+        "img": "/sprites/shiny/0503-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0549-f1",
+        "name": "Fragilady Forme de Hisui",
+        "types": [
+            "Plante",
+            "Combat"
+        ],
+        "img": "/sprites/shiny/0549-f1.png"
+    },
+    {
+        "id": "0550-f1",
+        "name": "Bargantua Motif Bleu",
+        "types": [
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0550-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0550-f2",
+        "name": "Bargantua Motif Blanc",
+        "types": [
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0550-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0554-f1",
+        "name": "Darumarond Forme de Galar",
+        "types": [
+            "Glace"
+        ],
+        "img": "/sprites/shiny/0554-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0555-f1",
+        "name": "Darumacho Forme de Galar",
+        "types": [
+            "Glace"
+        ],
+        "img": "/sprites/shiny/0555-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0562-f1",
+        "name": "Tutafeh Forme de Galar",
+        "types": [
+            "Sol",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0562-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0570-f1",
+        "name": "Zorua Forme de Hisui",
+        "types": [
+            "Normal",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0570-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0571-f1",
+        "name": "Zoroark Forme de Hisui",
+        "types": [
+            "Normal",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0571-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0585-f1",
+        "name": "Vivaldaim Forme Été",
+        "types": [
+            "Normal",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0585-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0585-f2",
+        "name": "Vivaldaim Forme Automne",
+        "types": [
+            "Normal",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0585-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0585-f3",
+        "name": "Vivaldaim Forme Hiver",
+        "types": [
+            "Normal",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0585-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0586-f1",
+        "name": "Haydaim Forme Été",
+        "types": [
+            "Normal",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0586-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0586-f2",
+        "name": "Haydaim Forme Automne",
+        "types": [
+            "Normal",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0586-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0586-f3",
+        "name": "Haydaim Forme Hiver",
+        "types": [
+            "Normal",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0586-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0618-f1",
+        "name": "Limonde Forme de Galar",
+        "types": [
+            "Sol",
+            "Acier"
+        ],
+        "img": "/sprites/shiny/0618-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0628-f1",
+        "name": "Gueriaigle Forme de Hisui",
+        "types": [
+            "Psy",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0628-f1.png"
+    },
+    {
+        "id": "0666-f01",
+        "name": "Prismillon Motif Banquise",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f01.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f02",
+        "name": "Prismillon Motif Glace",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f02.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f03",
+        "name": "Prismillon Motif Continent",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f03.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f04",
+        "name": "Prismillon Motif Verdure",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f04.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f05",
+        "name": "Prismillon Motif Monarchie",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f05.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f06",
+        "name": "Prismillon Motif Floraison",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f06.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f07",
+        "name": "Prismillon Motif Métropole",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f07.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f08",
+        "name": "Prismillon Motif Rivage",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f08.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f09",
+        "name": "Prismillon Motif Archipel",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f09.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f10",
+        "name": "Prismillon Motif Sécheresse",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f10.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f11",
+        "name": "Prismillon Motif Sable",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f11.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f12",
+        "name": "Prismillon Motif Delta",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f12.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f13",
+        "name": "Prismillon Motif Cyclone",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f13.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f14",
+        "name": "Prismillon Motif Mangrove",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f14.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f15",
+        "name": "Prismillon Motif Zénith",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f15.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f16",
+        "name": "Prismillon Motif Soleil Levant",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f16.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f17",
+        "name": "Prismillon Motif Jungle",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f17.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f18",
+        "name": "Prismillon Motif Fantaisie",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f18.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0666-f19",
+        "name": "Prismillon Motif Poké Ball",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0666-f19.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0669-f1",
+        "name": "Flabébé Fleur Jaune",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0669-f1.png"
+    },
+    {
+        "id": "0669-f2",
+        "name": "Flabébé Fleur Orange",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0669-f2.png"
+    },
+    {
+        "id": "0669-f3",
+        "name": "Flabébé Fleur Bleue",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0669-f3.png"
+    },
+    {
+        "id": "0669-f4",
+        "name": "Flabébé Fleur Blanche",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0669-f4.png"
+    },
+    {
+        "id": "0670-f1",
+        "name": "Floette Fleur Jaune",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0670-f1.png"
+    },
+    {
+        "id": "0670-f2",
+        "name": "Floette Fleur Orange",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0670-f2.png"
+    },
+    {
+        "id": "0670-f3",
+        "name": "Floette Fleur Bleue",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0670-f3.png"
+    },
+    {
+        "id": "0670-f4",
+        "name": "Floette Fleur Blanche",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0670-f4.png"
+    },
+    {
+        "id": "0670-f5",
+        "name": "Floette Fleur Éternelle",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0670-f5.png"
+    },
+    {
+        "id": "0671-f1",
+        "name": "Florges Fleur Jaune",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0671-f1.png"
+    },
+    {
+        "id": "0671-f2",
+        "name": "Florges Fleur Orange",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0671-f2.png"
+    },
+    {
+        "id": "0671-f3",
+        "name": "Florges Fleur Bleue",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0671-f3.png"
+    },
+    {
+        "id": "0671-f4",
+        "name": "Florges Fleur Blanche",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0671-f4.png"
+    },
+    {
+        "id": "0676-f1",
+        "name": "Couafarel Coupe Cœur",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f2",
+        "name": "Couafarel Coupe Étoile",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f3",
+        "name": "Couafarel Coupe Diamant",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f4",
+        "name": "Couafarel Coupe Demoiselle",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f4.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f5",
+        "name": "Couafarel Coupe Madame",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f5.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f6",
+        "name": "Couafarel Coupe Monsieur",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f6.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f7",
+        "name": "Couafarel Coupe Reine",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f7.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f8",
+        "name": "Couafarel Coupe Kabuki",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f8.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0676-f9",
+        "name": "Couafarel Coupe Pharaon",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0676-f9.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0705-f1",
+        "name": "Colimucus Forme de Hisui",
+        "types": [
+            "Acier",
+            "Dragon"
+        ],
+        "img": "/sprites/shiny/0705-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0706-f1",
+        "name": "Muplodocus Forme de Hisui",
+        "types": [
+            "Acier",
+            "Dragon"
+        ],
+        "img": "/sprites/shiny/0706-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0710-f1",
+        "name": "Pitrouille Variété Moyenne",
+        "types": ["Spectre", "Plante"],
+        "img": "/sprites/shiny/0710-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0710-f2",
+        "name": "Pitrouille Variété Grande",
+        "types": ["Spectre", "Plante"],
+        "img": "/sprites/shiny/0710-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0710-f3",
+        "name": "Pitrouille Variété Giga",
+        "types": ["Spectre", "Plante"],
+        "img": "/sprites/shiny/0710-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0711-f1",
+        "name": "Banshitrouye Variété Moyenne",
+        "types": ["Spectre", "Plante"],
+        "img": "/sprites/shiny/0711-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0711-f2",
+        "name": "Banshitrouye Variété Grande",
+        "types": ["Spectre", "Plante"],
+        "img": "/sprites/shiny/0711-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0711-f3",
+        "name": "Banshitrouye Variété Giga",
+        "types": ["Spectre", "Plante"],
+        "img": "/sprites/shiny/0711-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0713-f1",
+        "name": "Séracrawl Forme de Hisui",
+        "types": [
+            "Glace",
+            "Roche"
+        ],
+        "img": "/sprites/shiny/0713-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0718-f1",
+        "name": "Zygarde Forme 50 %",
+        "types": [
+            "Dragon",
+            "Sol"
+        ],
+        "img": "/sprites/shiny/0718-f1.png"
+    },
+    {
+        "id": "0724-f1",
+        "name": "Archéduc Forme de Hisui",
+        "types": [
+            "Plante",
+            "Combat"
+        ],
+        "img": "/sprites/shiny/0724-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0741-f1",
+        "name": "Plumeline Style Buyō",
+        "types": [
+            "Électrik",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0741-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0741-f2",
+        "name": "Plumeline Style Flamenco",
+        "types": [
+            "Psy",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0741-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0741-f3",
+        "name": "Plumeline Style Hula",
+        "types": [
+            "Spectre",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0741-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0745-f1",
+        "name": "Lougaroc Forme Nocturne",
+        "types": [
+            "Roche"
+        ],
+        "img": "/sprites/shiny/0745-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0745-f2",
+        "name": "Lougaroc Forme Crépusculaire",
+        "types": [
+            "Roche"
+        ],
+        "img": "/sprites/shiny/0745-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0801-f1",
+        "name": "Magearna Couleur du Passé",
+        "types": [
+            "Acier",
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0801-f1.png"
+    },
+    {
+        "id": "0849-f1",
+        "name": "Salarsen Forme Aigüe",
+        "types": [
+            "Électrik",
+            "Poison"
+        ],
+        "img": "/sprites/shiny/0849-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0854-f1",
+        "name": "Théffroi Forme Authentique",
+        "types": [
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0854.png"
+    },
+    {
+        "id": "0855-f1",
+        "name": "Polthégeist Forme Authentique",
+        "types": [
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/0855.png"
+    },
+    {
+        "id": "0869-f1",
+        "name": "Charmilly Baie en Sucre",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0869-f1.png"
+    },
+    {
+        "id": "0869-f2",
+        "name": "Charmilly Cœur en Sucre",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0869-f2.png"
+    },
+    {
+        "id": "0869-f3",
+        "name": "Charmilly Étoile en Sucre",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0869-f3.png"
+    },
+    {
+        "id": "0869-f4",
+        "name": "Charmilly Trèfle en Sucre",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0869-f4.png"
+    },
+    {
+        "id": "0869-f5",
+        "name": "Charmilly Fleur en Sucre",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0869-f5.png"
+    },
+    {
+        "id": "0869-f6",
+        "name": "Charmilly Ruban en Sucre",
+        "types": [
+            "Fée"
+        ],
+        "img": "/sprites/shiny/0869-f6.png"
+    },
+    {
+        "id": "0892-f1",
+        "name": "Shifours Style Mille Poings",
+        "types": [
+            "Combat",
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0892-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0893-f1",
+        "name": "Zarude Papa",
+        "types": [
+            "Ténèbres",
+            "Plante"
+        ],
+        "img": "/sprites/shiny/0893-f1.png"
+    },
+    {
+        "id": "0901-f1",
+        "name": "Ursaking Lune Vermeille",
+        "types": [
+            "Sol",
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0901-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0925-f1",
+        "name": "Famignol Famille de Quatre",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0925-f1.png"
+    },
+    {
+        "id": "0931-f1",
+        "name": "Tapatoès Plumage Bleu",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0931-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0931-f2",
+        "name": "Tapatoès Plumage Jaune",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0931-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0931-f3",
+        "name": "Tapatoès Plumage Blanc",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "img": "/sprites/shiny/0931-f3.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0978-f1",
+        "name": "Nigirigon Forme Affalée",
+        "types": [
+            "Dragon",
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0978-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0978-f2",
+        "name": "Nigirigon Forme Raide",
+        "types": [
+            "Dragon",
+            "Eau"
+        ],
+        "img": "/sprites/shiny/0978-f2.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0982-f1",
+        "name": "Deusolourdo Forme Triple",
+        "types": [
+            "Normal"
+        ],
+        "img": "/sprites/shiny/0982-f1.png",
+        "hasFemale": true
+    },
+    {
+        "id": "0999-f1",
+        "name": "Mordudor Forme Marche",
+        "types": [
+        "Spectre"
+        ],
+        "img": "/sprites/shiny/0999-f1.png"
+    },
+    {
+        "id": "1012-f1",
+        "name": "Poltchageist Forme Onéreuse",
+        "types": [
+            "Plante",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/1012.png"
+    },
+    {
+        "id": "1013-f1",
+        "name": "Théffroyable Forme Exceptionnelle",
+        "types": [
+            "Plante",
+            "Spectre"
+        ],
+        "img": "/sprites/shiny/1013.png"
+    }
+]
