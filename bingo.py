@@ -12,15 +12,14 @@ PORT = 27535
 IMAGE_SIZE = (100, 100)  
 SAVE_FILE = "bingo_save.json" # Fichier pour la sauvegarde locale
 
-# Ajoute ici les ID des Pokémon
 BLACKLIST = [144, "0144-f1", 145, "0145-f1", 146, "0146-f1", 150, 151, 243, 244, 245, 249, 250, 251, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489,
 490, 491, 492, 493, 494, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 666, "0666-f01", "0666-f02", "0666-f03", "0666-f04", "0666-f05", "0666-f07", "0666-f08", "0666-f09", "0666-f10", 
 "0666-f11", "0666-f12", "0666-f13", "0666-f14", "0666-f15", "0666-f16", "0666-f17", "0666-f19", "0670-f5", "0710-f1", "0710-f2", "0710-f3", "0711-f1", "0711-f2", "0711-f3", 716, 717, 718, "0718-f1", 
 719, 720, 721, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, "0854-f1", "0855-f1", 888, 889, 890, 891, 892, "0892-f1", 894,
 895, 896, 897, "0901-f1", 905, 999, "0999-f1", 1000, 1001, 1002, 1003, 1004, 1007, 1008, 1009, 1010, "1012-f1", "1013-f1", 1014, 1015, 1016, 1017, 1020, 1021, 1022, 1023, 1024, 
-1025] # Pokémon interdits dans la grille
+1025]
 
-WHITELIST = [] # Pokémon obligatoires dans la grille
+WHITELIST = [] 
 # -------------------------------
 
 class PokemonBingoApp:
@@ -39,12 +38,12 @@ class PokemonBingoApp:
         self.my_color = "#0077ff"
         
         # État du jeu partagé
-        self.grid_data = []        # Liste de dictionnaires : [{"id": "0025", "name": "Pikachu", "color": "#444444"}, ...]
+        # Structure : [{"id": "0025", "name": "Pikachu", "checked_by": "Pseudo" ou None}, ...]
+        self.grid_data = []        
         self.players_info = {}     
         self.buttons = []          
         self.photo_images = []     
         
-        # Widgets spécifiques pour éviter leur suppression
         self.btn_reroll = None
         self.player_labels_frame = None
         
@@ -60,7 +59,6 @@ class PokemonBingoApp:
         btn_host = tk.Button(self.menu_frame, text="Héberger une partie", font=("Arial", 12), width=25, bg="#444444", fg="white", command=self.setup_host)
         btn_host.pack(pady=10)
         
-        # Option de chargement si une sauvegarde existe
         if os.path.exists(SAVE_FILE):
             btn_load = tk.Button(self.menu_frame, text="Charger la dernière partie (Hôte)", font=("Arial", 12), width=25, bg="#27ae60", fg="white", command=self.load_saved_game)
             btn_load.pack(pady=10)
@@ -92,7 +90,7 @@ class PokemonBingoApp:
 
         if not pokemon_dict:
             messagebox.showerror("Erreur", "Aucun fichier JSON valide trouvé !")
-            return [{"id": f"{i:04d}", "name": f"Pokémon {i}", "color": "#444444"} for i in range(1, 26)]
+            return [{"id": f"{i:04d}", "name": f"Pokémon {i}", "checked_by": None} for i in range(1, 26)]
 
         def format_filter_item(x):
             if isinstance(x, int): return f"{x:04d}"
@@ -126,13 +124,13 @@ class PokemonBingoApp:
             if any(x in BLACKLIST for x in ["0710-f1", "0711-f1", "0854-f1", "0855-f1", "1012-f1", "1013-f1"]):
                 if poke_id in ["0710", "0711", "0854", "0855", "1012", "1013"]:
                     poke_name = pokemon_dict[poke_id].split(" ")[0]
-                    final_grid.append({"id": poke_id, "name": poke_name, "color": "#444444"})
+                    final_grid.append({"id": poke_id, "name": poke_name, "checked_by": None})
                     continue
-            final_grid.append({"id": poke_id, "name": pokemon_dict[poke_id], "color": "#444444"})
+            final_grid.append({"id": poke_id, "name": pokemon_dict[poke_id], "checked_by": None})
         return final_grid
     
     def save_current_game(self):
-        """Sauvegarde l'état actuel de la grille et des cases cochées."""
+        """Sauvegarde l'état actuel de la grille avec les pseudos de ceux qui ont coché."""
         try:
             with open(SAVE_FILE, "w", encoding="utf-8") as f:
                 json.dump(self.grid_data, f, ensure_ascii=False, indent=4)
@@ -150,13 +148,24 @@ class PokemonBingoApp:
             
             threading.Thread(target=self.host_server_thread, daemon=True).start()
             self.start_game_interface()
-            
-            # Applique les couleurs chargées sur l'interface
-            for idx, cell in enumerate(self.grid_data):
-                if cell.get("color") and cell["color"] != "#444444":
-                    self.update_cell_color(idx, cell["color"])
+            self.refresh_grid_colors()
         except Exception as e:
             messagebox.showerror("Erreur", f"Impossible de charger la sauvegarde : {e}")
+
+    def refresh_grid_colors(self):
+        """Parcourt la grille de données et applique la bonne couleur selon le pseudo associé."""
+        for idx, cell in enumerate(self.grid_data):
+            player_name = cell.get("checked_by")
+            if player_name and player_name in self.players_info:
+                # Le joueur est connecté, on met sa couleur actuelle
+                self.update_cell_color(idx, self.players_info[player_name])
+            elif player_name:
+                # Le joueur n'est pas encore là, on met une couleur grise temporaire (ex: #555555)
+                # ou on laisse sa case cochée en attendant sa connexion
+                self.update_cell_color(idx, "#555555")
+            else:
+                # Personne n'a coché
+                self.update_cell_color(idx, "#444444")
 
     def reset_grid_interface(self):
         """Vide l'ancienne grille graphique et reconstruit les 25 nouveaux boutons."""
@@ -171,11 +180,15 @@ class PokemonBingoApp:
             col = i % 5
             poke_id = poke_info["id"]
             poke_name = poke_info["name"]
-            cell_color = poke_info.get("color", "#444444")
             
             img_path = f"images/{poke_id}.png"
             if os.path.exists(img_path):
-                pil_img = Image.open(img_path)
+                filename = img_path
+            else:
+                filename = None
+                
+            if filename and os.path.exists(filename):
+                pil_img = Image.open(filename)
                 pil_img = pil_img.resize(IMAGE_SIZE, Image.Resampling.LANCZOS)
                 img = ImageTk.PhotoImage(pil_img)
             else:
@@ -185,20 +198,22 @@ class PokemonBingoApp:
             
             btn = tk.Button(
                 self.game_frame, image=img, text=poke_name, compound="top",
-                font=("Arial", 8, "bold"), bg=cell_color, fg="white", 
-                activebackground=cell_color, width=120, height=150, wraplength=100, justify="center",
+                font=("Arial", 8, "bold"), bg="#444444", fg="white", 
+                width=120, height=150, wraplength=100, justify="center",
                 command=lambda idx=i: self.on_cell_left_click(idx)
             )
             btn.grid(row=row, column=col, padx=4, pady=4)
             btn.bind("<Button-3>", lambda event, idx=i: self.on_cell_right_click(idx))
             btn.bind("<Button-2>", lambda event, idx=i: self.on_cell_right_click(idx))
             self.buttons.append(btn)
+        
+        self.refresh_grid_colors()
 
     def trigger_reroll(self):
         """Action du bouton Reroll (Hôte uniquement)."""
         self.grid_data = self.generate_filtered_grid()
         self.reset_grid_interface()
-        self.save_current_game() # Sauvegarde la nouvelle grille vide
+        self.save_current_game() 
         self.broadcast_message({"type": "NEW_GRID", "grid": self.grid_data})
 
     def get_user_profile(self):
@@ -217,7 +232,7 @@ class PokemonBingoApp:
         self.is_host = True
         
         self.grid_data = self.generate_filtered_grid()
-        self.save_current_game() # Première sauvegarde automatique
+        self.save_current_game() 
         self.players_info[self.my_name] = self.my_color
         
         threading.Thread(target=self.host_server_thread, daemon=True).start()
@@ -246,6 +261,10 @@ class PokemonBingoApp:
                 
                 if msg["type"] == "JOIN":
                     self.players_info[msg["name"]] = msg["color"]
+                    
+                    # On force un rafraîchissement global des couleurs de la grille
+                    # (Si le joueur qui rejoint avait des cases sauvegardées à son nom, elles prennent sa couleur !)
+                    self.root.after(0, self.refresh_grid_colors)
                     self.root.after(0, self.update_legend)
                     
                     response = {
@@ -257,8 +276,13 @@ class PokemonBingoApp:
                     self.broadcast_message({"type": "NEW_PLAYER", "name": msg["name"], "color": msg["color"]})
                 
                 elif msg["type"] in ["CLICK", "UNCLICK"]:
-                    self.root.after(0, self.update_cell_color, msg["index"], msg["color"])
+                    player_matching = msg["player"] if msg["type"] == "CLICK" else None
+                    self.grid_data[msg["index"]]["checked_by"] = player_matching
+                    
+                    self.root.after(0, self.refresh_grid_colors)
                     self.broadcast_message(msg)
+                    if self.is_host:
+                        self.save_current_game()
                     
             except:
                 break
@@ -294,11 +318,7 @@ class PokemonBingoApp:
                 self.players_info = msg["players"]
                 self.start_game_interface()
                 
-                # Applique l'état des couleurs reçues de l'hôte
-                for idx, cell in enumerate(self.grid_data):
-                    if cell.get("color") and cell["color"] != "#444444":
-                        self.update_cell_color(idx, cell["color"])
-                        
+                self.refresh_grid_colors()
                 threading.Thread(target=self.listen_to_host, daemon=True).start()
                 
         except Exception as e:
@@ -313,10 +333,13 @@ class PokemonBingoApp:
                 
                 if msg["type"] == "NEW_PLAYER":
                     self.players_info[msg["name"]] = msg["color"]
+                    self.root.after(0, self.refresh_grid_colors)
                     self.root.after(0, self.update_legend)
                     
                 elif msg["type"] in ["CLICK", "UNCLICK"]:
-                    self.root.after(0, self.update_cell_color, msg["index"], msg["color"])
+                    player_matching = msg["player"] if msg["type"] == "CLICK" else None
+                    self.grid_data[msg["index"]]["checked_by"] = player_matching
+                    self.root.after(0, self.refresh_grid_colors)
                 
                 elif msg["type"] == "NEW_GRID":
                     self.grid_data = msg["grid"]
@@ -339,14 +362,12 @@ class PokemonBingoApp:
         lbl_title_leg = tk.Label(self.legend_frame, text="JOUEURS", font=("Arial", 12, "bold"), fg="white", bg="#2b2b2b")
         lbl_title_leg.pack(pady=(0, 10))
         
-        # Frame dédiée pour accueillir la liste des joueurs sans toucher au reste
         self.player_labels_frame = tk.Frame(self.legend_frame, bg="#2b2b2b")
         self.player_labels_frame.pack(fill=tk.BOTH, expand=True)
         
         self.update_legend()
         self.reset_grid_interface()
         
-        # --- BOUTON REROLL POUR L'HÔTE (Isolé) ---
         if self.is_host:
             self.btn_reroll = tk.Button(
                 self.legend_frame, 
@@ -359,7 +380,6 @@ class PokemonBingoApp:
             self.btn_reroll.pack(pady=20, fill=tk.X, side=tk.BOTTOM)
 
     def update_legend(self):
-        # On vide uniquement le conteneur des joueurs, pas toute la legende
         for widget in self.player_labels_frame.winfo_children():
             widget.destroy()
                 
@@ -370,15 +390,21 @@ class PokemonBingoApp:
         btn = self.buttons[index]
         if btn.cget("bg") != "#444444": return 
             
-        self.update_cell_color(index, self.my_color)
-        self.send_network_event({"type": "CLICK", "index": index, "color": self.my_color})
+        self.grid_data[index]["checked_by"] = self.my_name
+        self.refresh_grid_colors()
+        self.send_network_event({"type": "CLICK", "index": index, "player": self.my_name})
+        if self.is_host:
+            self.save_current_game()
 
     def on_cell_right_click(self, index):
         btn = self.buttons[index]
         if btn.cget("bg") == "#444444": return 
         
-        self.update_cell_color(index, "#444444") 
-        self.send_network_event({"type": "UNCLICK", "index": index, "color": "#444444"})
+        self.grid_data[index]["checked_by"] = None
+        self.refresh_grid_colors()
+        self.send_network_event({"type": "UNCLICK", "index": index, "player": self.my_name})
+        if self.is_host:
+            self.save_current_game()
 
     def send_network_event(self, msg_dict):
         try:
@@ -392,9 +418,6 @@ class PokemonBingoApp:
     def update_cell_color(self, index, color):
         if 0 <= index < len(self.buttons):
             self.buttons[index].config(bg=color, activebackground=color)
-            self.grid_data[index]["color"] = color # Met à jour la couleur dans la structure de données
-            if self.is_host:
-                self.save_current_game() # Sauvegarde en temps réel côté hôte dès qu'une case change
 
 if __name__ == "__main__":
     root = tk.Tk()
